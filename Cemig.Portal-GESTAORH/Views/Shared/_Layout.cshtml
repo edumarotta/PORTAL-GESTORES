@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Meu Aplicativo ASP.NET</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <!--Inicio do NavBar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">SGST</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" @Html.ActionLink("Home", "Index", "Home")
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Segurança do Trabalho
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" @Html.ActionLink("Informações sobre segurança do Trabalho", "InfosSegurancaTrabalho", "SegurancaTrabalho")</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" @Html.ActionLink("CIPA", "CIPA", "InfosSegurancaTrabalho")
+                            <a class="dropdown-item" @Html.ActionLink("PPRA", "PPRA", "InfosSegurancaTrabalho")
+                            <a class="dropdown-item" @Html.ActionLink("PCMSO", "PCMSO", "InfosSegurancaTrabalho")
+
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Softwares
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" @Html.ActionLink("Sobre Nossos Softwares", "Softwares", "Softwares")
+                            <div class="dropdown-divider"></div>
+                             <a class="dropdown-item" @Html.ActionLink("CIS", "CIS", "Softwares")
+                             <a class="dropdown-item" @Html.ActionLink("GECIPA", "GECIPA", "Softwares")
+                             <a class="dropdown-item" @Html.ActionLink("GESTOR SST", "GESTORSST", "Softwares")
+
+                        </div>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" @Html.ActionLink("Sobre", "Sobre", "Sobre")
+                    </li>
+
+
+                    <li class="nav-item active">
+                        <a class="nav-link" @Html.ActionLink("Fale Conosco", "FaleConosco", "Sobre")
+                    </li>
+
+
+                    <li class="nav-item active">
+                        <a class="nav-link" @Html.ActionLink("Entrar", "Login", "Login")
+                    </li>
+
+
+
+                </ul>
+            </div>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <br /><br /><br /><br />
+        </div>
+    </nav>
+    <!--Fim do navBar-->
+
+    <br /><br />
+
+    <!-- #Inicio do Ir para o topo-->
+
+    <ul id=top style="list-style-type: none;">
+        <li><a href="#  "><i class="fas fa-4x fa-chevron-circle-up black" style="color: green;"></i></a>
+
+    </ul>
+
+    <!-- #Fim do Ir para o topo-->
+    @RenderBody()
+
+    <footer>
+        <!-- #footer-->
+
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container">
+                <div class="container">
+                    <br><br>
+                    <div class="row">
+                        <div class="col-sm">
+                            <h2 style="color:whitesmoke "><strong>SGST</strong></h2>
+                            <div class="span2">
+                                SGST business company, Inc.<br>
+                                Av barbacena, Sto Agostinho 1200<br>
+                                Belo Horizonte, CA 94107<br>
+                                P: (123) 456-7890
+                            </div>
+
+                        </div>
+                        <div class="col-sm">
+                            <h3 style="color:grey ">Links Uteis</h3>
+
+
+                        </div>
+
+                        <div class="col-sm">
+                            <h3 style="color:grey">Fique Atualizado</h3>
+                            <input id="emailma0" type="email" placeholder="digite aqui seu email" style="height: 35px">
+                            <button onclick='enviaEmail()' class="btn btn-success">Enviar</button>
+                            <br><br>
+                            <icone>
+                                <i class="fab fa-2x fa-facebook" style="color:green;"></i>
+                                <i class="fab fa-2x fa-twitter" style="color:green;"> </i>
+                                <i class="fab fa-2x fa-instagram" style="color:green;"></i>
+                            </icone>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+            </div>]
+            <br /><br />
+        </nav>
+
+
+
+
+        </div>
+    </footer>
+
+
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,110 @@
+﻿
+@{
+    ViewBag.Title = "FaleConosco";
+}
+
+
+<div class="jumbotron">
+    <div class="container">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+
+                    <h5>Fale Conosco através do Formulário Abaixo</h5>
+                </div>
+                <div class="col-sm">
+                    <div class="AlignRight">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Fale Conosco</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+
+            <div class="jumbotron">
+
+                <div class="container">
+                    <h3>Entre em contato:</h3>
+                    <br>
+                    <br>
+                    <strong>Telefone:</strong>
+                    <br>
+                    (31) 555-5555
+                    <br>
+                    <br>
+                    <strong>Email:</strong>
+                    <br>
+                    email@email.com
+                    <br>
+                    <br>
+                    <strong>Endereço:</strong>
+                    <br>
+                    <br>
+                    <br>
+                    <hr>
+                    <strong>Redes Sociais:</strong>
+                    <br>
+                    <br>
+                    <icone>
+                        <i class="fab fa-3x fa-facebook" style="color:blue;"></i>
+                        <i class="fab fa-3x fa-twitter" style="color:blue;"> </i>
+                        <i class="fab fa-3x fa-instagram" style="color:blue;"></i>
+                    </icone>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="col-8">
+            <form>
+                <div class="form-group">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm">
+                                <label for="nome">Nome:</label><br>
+                                <input id="nome" type="text" placeholder="Digite aqui seu nome" size="30">
+                            </div>
+                            <div class="col-sm">
+                                <label for="email">Email:</label><br>
+                                <input id="email" type="email" placeholder="Digite aqui seu Email" size="30">
+                            </div>
+                        </div>
+
+                        <label for="assunto">Assunto</label><br>
+                        <input id="assunto" type="text" placeholder="Digite aqui seu Email" size="80">
+                        <br>
+                        <label for="mensagem">mensagem</label><br>
+                        <textarea id="mensagem" type="text" rows=10 size="65"
+                                  style="width: 650px; height: 200px;"
+                                  placeholder="Digite sua mensagem aqui"></textarea>
+
+
+
+                        <br><br>
+                        <button onclick='validaForm()' class="btn btn-success">Enviar</button>
+                        <button onclick='limpaForm()' class="btn btn-danger">Limpar</button>
+                    </div>
+
+                </div>
+
+
+
+            </form>
+
+
+
+        </div>
+
+    </div>
+</div>
+

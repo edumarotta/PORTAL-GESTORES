@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cemig.Portal-GESTAORH", "Cemig.Portal-GESTAORH\Cemig.Portal-GESTAORH.csproj", "{1D1EA276-6E8B-4956-806C-D141DD2900F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D1EA276-6E8B-4956-806C-D141DD2900F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D1EA276-6E8B-4956-806C-D141DD2900F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D1EA276-6E8B-4956-806C-D141DD2900F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D1EA276-6E8B-4956-806C-D141DD2900F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25E1C0DE-D49C-49D6-8457-6A53862BB64F}
+	EndGlobalSection
+EndGlobal
