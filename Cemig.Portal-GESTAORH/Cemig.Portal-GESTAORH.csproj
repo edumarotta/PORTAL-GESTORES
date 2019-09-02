@@ -1833,7 +1833,7 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
-    <Content Include="Views\Softwares\Softwares.cshtml" />
+    <Content Include="Views\Softwares\IndexSoftwares.cshtml" />
     <Content Include="Views\Softwares\CIS.cshtml" />
     <Content Include="Views\Softwares\GECIPA.cshtml" />
     <Content Include="Views\Softwares\GESTORSST.cshtml" />
@@ -1842,11 +1842,12 @@
     <Content Include="Views\InfosSegurancaTrabalho\PCMSO.cshtml" />
     <Content Include="Views\Sobre\Sobre.cshtml" />
     <Content Include="Views\Sobre\FaleConosco.cshtml" />
+    <Content Include="Views\InfosSegurancaTrabalho\SegurancaDoTrabalho.cshtml" />
+    <Content Include="Views\Login\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Login\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

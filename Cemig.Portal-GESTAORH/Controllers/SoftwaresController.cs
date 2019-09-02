@@ -9,7 +9,7 @@ namespace Cemig.Portal_GESTAORH.Controllers
     public class SoftwaresController : Controller
     {
         // GET: Softwares
-        public ActionResult Softwares()
+        public ActionResult IndexSoftwares()
         {
             return View();
         }

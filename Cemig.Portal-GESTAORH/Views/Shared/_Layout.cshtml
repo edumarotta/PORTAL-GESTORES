@@ -19,7 +19,7 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" @Html.ActionLink("Home", "Index", "Home")
                     </li>
 
@@ -28,7 +28,7 @@
                             Segurança do Trabalho
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" @Html.ActionLink("Informações sobre segurança do Trabalho", "InfosSegurancaTrabalho", "SegurancaTrabalho")</a>
+                            <a class="dropdown-item" @Html.ActionLink("Informações sobre segurança do Trabalho", "SegurancaDoTrabalho", "InfosSegurancaTrabalho")</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" @Html.ActionLink("CIPA", "CIPA", "InfosSegurancaTrabalho")
                             <a class="dropdown-item" @Html.ActionLink("PPRA", "PPRA", "InfosSegurancaTrabalho")
@@ -41,7 +41,7 @@
                             Softwares
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" @Html.ActionLink("Sobre Nossos Softwares", "Softwares", "Softwares")
+                            <a class="dropdown-item" @Html.ActionLink("Sobre Nossos Softwares", "IndexSoftwares", "Softwares")
                             <div class="dropdown-divider"></div>
                              <a class="dropdown-item" @Html.ActionLink("CIS", "CIS", "Softwares")
                              <a class="dropdown-item" @Html.ActionLink("GECIPA", "GECIPA", "Softwares")
@@ -50,17 +50,17 @@
                         </div>
                     </li>
 
-                    <li class="nav-item active">
+                    <li class="nav-item ">
                         <a class="nav-link" @Html.ActionLink("Sobre", "Sobre", "Sobre")
                     </li>
 
 
-                    <li class="nav-item active">
+                    <li class="nav-item ">
                         <a class="nav-link" @Html.ActionLink("Fale Conosco", "FaleConosco", "Sobre")
                     </li>
 
 
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" @Html.ActionLink("Entrar", "Login", "Login")
                     </li>
 

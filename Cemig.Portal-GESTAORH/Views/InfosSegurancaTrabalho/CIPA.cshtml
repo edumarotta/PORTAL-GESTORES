@@ -3,5 +3,72 @@
     ViewBag.Title = "CIPA";
 }
 
-<h2>CIPA</h2>
 
+<!-- #Conteudo-->
+<div class="jumbotron">
+    <div class="container">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+
+                    <h5>CIPA</h5>
+                </div>
+                <div class="col-sm">
+                    <div class="AlignRight">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">  @Html.ActionLink("Home", "Index", "Home")</li>
+
+                                <li class="breadcrumb-item active"> @Html.ActionLink("Informações da Segurança do trabalho", "SegurancaDoTrabalho", "InfosSegurancaTrabalho")</li>
+                                <li class="breadcrumb-item active" aria-current="page">CIPA</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <div class="card" style="width: 18rem;">
+                <span class="border border-dark">
+                    <img src="~/img/gcipa2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">CIPA</h5>
+                        <p class="card-text">Informações sobre CIPA</p>
+                        @Html.ActionLink("Visitar", "CIPA", "InfosSegurancaTrabalho", new { @class = "btn btn-success" })
+                    </div>
+                </span>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="card" style="width: 18rem;">
+                <span class="border border-dark">
+                    <img src="~/img/gcipa.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">PPRA</h5>
+                        <p class="card-text">Informações sobre PPRA</p>
+                        @Html.ActionLink("Visitar", "PPRA", "InfosSegurancaTrabalho", new { @class = "btn btn-success" })
+                    </div>
+                </span>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="card" style="width: 18rem;">
+                <span class="border border-dark">
+                    <img src="~/img/gcipa2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">PCMSO</h5>
+                        <p class="card-text">informações sobre PCMSO</p>
+                        @Html.ActionLink("Visitar", "PCMSO", "InfosSegurancaTrabalho", new { @class = "btn btn-success" })
+                    </div>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>

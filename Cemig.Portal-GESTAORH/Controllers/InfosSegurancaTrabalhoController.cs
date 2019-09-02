@@ -24,5 +24,10 @@ namespace Cemig.Portal_GESTAORH.Controllers
         {
             return View();
         }
+        
+        public ActionResult SegurancaDoTrabalho()
+        {
+            return View();
+        }
     }
 }

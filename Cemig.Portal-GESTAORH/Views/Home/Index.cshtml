@@ -7,10 +7,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-6">
-                    <h1 class="display-6">
+                    <h1>
                         <div class="TextBorders">Sistemas de Gestão</div>
                     </h1>
                     Sistemas de Gestão em Segurança do Trabalho
+                    
                     <br>
                     <br>
                     <ul>
@@ -60,7 +61,7 @@
                     <div class="card-body">
                         <h5 class="card-title">GECIPA</h5>
                         <p class="card-text">Softwares GECIPA</p>
-                        <a href="#" class="btn btn-success btn-rounded">Visite</a>
+                        @Html.ActionLink("Visite", "CIPA", "SOftwares", new { @class = "btn btn-success" })
                     </div>
                 </div>
             </div>
@@ -72,7 +73,7 @@
                     <div class="card-body">
                         <h5 class="card-title">CIS</h5>
                         <p class="card-text">Softwares CIS</p>
-                        <a href="#" class="btn btn-success btn-rounded">Visite</a>
+                        @Html.ActionLink("Visite", "CIS", "Softwares", new { @class = "btn btn-success" })
                     </div>
                 </div>
             </div>
@@ -82,9 +83,9 @@
                 <div class="border border-dark">
                     <img src="~/img/gcipa2.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">GECIPA</h5>
+                        <h5 class="card-title">GESTOR</h5>
                         <p class="card-text">Softwares GECIPA</p>
-                        @Html.ActionLink("Visite", "GECIPA", "Softwares", new { @class = "btn btn-primary" })
+                        @Html.ActionLink("Visite", "GESTORSST", "Softwares", new { @class = "btn btn-success" })
                     </div>
                 </div>
             </div>
