@@ -50,3 +50,7 @@ textarea {
     text-align: center;
     color: white;
 }
+.centralizaform {
+    top: 20%;
+    bottom: 20%;
+}
